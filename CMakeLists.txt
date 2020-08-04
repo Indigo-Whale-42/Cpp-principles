@@ -4,3 +4,4 @@ project(Cpp_principles)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Cpp_principles main.cpp)
+add_subdirectory(Sort)
