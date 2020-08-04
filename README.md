@@ -1,2 +1,2 @@
 # Cpp-principles
-C++ code
+C/C++ code
