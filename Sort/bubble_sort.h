@@ -1,8 +1,0 @@
-//
-// Created by Екатерина on 05.08.2020.
-//
-
-#ifndef CPP_PRINCIPLES_BUBBLE_SORT_H
-#define CPP_PRINCIPLES_BUBBLE_SORT_H
-
-#endif //CPP_PRINCIPLES_BUBBLE_SORT_H

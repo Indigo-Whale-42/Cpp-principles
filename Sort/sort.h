@@ -1,0 +1,7 @@
+
+#ifndef CPP_PRINCIPLES_SORT_H
+#define CPP_PRINCIPLES_SORT_H
+
+void BubbleSort( int *a, int n );
+
+#endif //CPP_PRINCIPLES_SORT_H
