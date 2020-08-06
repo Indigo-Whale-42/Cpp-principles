@@ -4,10 +4,12 @@
 
 int main(void) {
     int a[] = {1,3, 4, -7, -1, 89, 2, 1, 5};
+    int n = sizeof(a) / sizeof(int);
 
     //BubbleSort(a, sizeof(a) / sizeof(int));
    // CocktailSort(a, sizeof(a) / sizeof(int));
-    SelectionSort(a, sizeof(a) / sizeof(int));
+    //SelectionSort(a, sizeof(a) / sizeof(int));
+    InsertionSort(a, n);
     PrintArray(a, sizeof(a) / sizeof(int));
 }
 

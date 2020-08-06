@@ -2,8 +2,7 @@
 #include "sort.h"
 #include "sort_common.h"
 
-void CocktailSort(int *a, int n)
-{
+void CocktailSort(int *a, int n) {
     int left = 0, right = n - 1, i, last_changed;
     Boolean swap_happened;
 
