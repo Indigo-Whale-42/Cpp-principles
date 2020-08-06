@@ -11,4 +11,6 @@ void SelectionSort(int *a, int n);
 void InsertionSort(int *a, int n);
 void ShellSort(int *a, int n);
 
+void MergeSort(int *a, int n);
+
 #endif //CPP_PRINCIPLES_SORT_H
