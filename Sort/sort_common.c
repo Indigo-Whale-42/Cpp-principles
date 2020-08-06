@@ -1,5 +1,5 @@
 
-#include "common.h"
+#include "sort_common.h"
 
 void Swap(int *a, int *b)
 {

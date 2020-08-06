@@ -1,8 +1,8 @@
 
-#include "common.h"
+#include "sort_common.h"
 #include "sort.h"
 
-void BubbleSort( int *a, int n ) {
+void BubbleSort(int *a, int n) {
     int i;
     Boolean swap_happened = false;
 

@@ -1,6 +1,6 @@
 
 #include "sort_test.h"
-#include "common.h"
+#include "sort_common.h"
 #include <stdio.h>
 
 void PrintArray(int *a, int n) {
