@@ -11,7 +11,9 @@ int main(void) {
     //SelectionSort(a, sizeof(a) / sizeof(int));
     //InsertionSort(a, n);
     //ShellSort(a, n);
-    CombSort(a, n);
-    PrintArray(a, sizeof(a) / sizeof(int));
+    //CombSort(a, n);
+    //MergeSort(a, n);
+    //PrintArray(a, sizeof(a) / sizeof(int));
+    TestAllSorts()
 }
 
