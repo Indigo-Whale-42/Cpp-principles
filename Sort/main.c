@@ -10,7 +10,8 @@ int main(void) {
    // CocktailSort(a, sizeof(a) / sizeof(int));
     //SelectionSort(a, sizeof(a) / sizeof(int));
     //InsertionSort(a, n);
-    ShellSort(a, n);
+    //ShellSort(a, n);
+    CombSort(a, n);
     PrintArray(a, sizeof(a) / sizeof(int));
 }
 
