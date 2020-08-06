@@ -9,7 +9,8 @@ int main(void) {
     //BubbleSort(a, sizeof(a) / sizeof(int));
    // CocktailSort(a, sizeof(a) / sizeof(int));
     //SelectionSort(a, sizeof(a) / sizeof(int));
-    InsertionSort(a, n);
+    //InsertionSort(a, n);
+    ShellSort(a, n);
     PrintArray(a, sizeof(a) / sizeof(int));
 }
 
