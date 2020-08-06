@@ -14,6 +14,6 @@ int main(void) {
     //CombSort(a, n);
     //MergeSort(a, n);
     //PrintArray(a, sizeof(a) / sizeof(int));
-    TestAllSorts()
+    TestAllSorts();
 }
 

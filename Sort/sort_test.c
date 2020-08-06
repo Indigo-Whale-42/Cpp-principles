@@ -53,7 +53,7 @@ Boolean IsSorted(int *a, int n) {
 
 void TestAllSorts(void) {
     int *a;
-    int max = 1000;
+    int max = 10000;
     int i, j;
     time_t t;
 
@@ -70,8 +70,8 @@ void TestAllSorts(void) {
     Function fill_functions[] = {
             { FillRand, "Randomly" },
             { FillIncr, "Incrementally" },
-            { FillDecr, "Decrementally" },
-            { FillAlmostSorted, "Almost Sorted" }
+            { FillAlmostSorted, "Almost Sorted" },
+            { FillDecr, "Decrementally" }
     };
 
     a = (int *)malloc(sizeof(int) * max);
@@ -83,13 +83,14 @@ void TestAllSorts(void) {
 
     srand(time(0));
 
+    printf("fill:                ");
     for (i = 0; i < sizeof(fill_functions) / sizeof(fill_functions[0]); i++) {
         printf("%20s ", fill_functions[i].name);
     }
     printf("\n");
 
     for (j = 0; j < sizeof(sort_functions) / sizeof(sort_functions[0]); j++) {
-        printf("Sort: %s \n", sort_functions[j].name);
+        printf("Sort: %14s ", sort_functions[j].name);
         for (i = 0; i < sizeof(fill_functions) / sizeof(fill_functions[0]); i++) {
             fill_functions[i].function_p(a, max);
             t = clock();
