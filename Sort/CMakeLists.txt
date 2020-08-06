@@ -3,10 +3,10 @@ project(Sort)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCES bubble_sort.c sort_common.c cocktail_sort.c)
+set(SOURCES bubble_sort.c sort_common.c cocktail_sort.c selection_sort.c)
 set(HEADERS sort_common.h sort.h)
 set(TESTS sort_test.c)
 #add_library(sorting ${SOURCES} ${HEADERS})
 #add_library(sorting_tests ${TESTS})
 
-add_executable(Sort main.c ${SOURCES} ${TESTS} cocktail_sort.c)
+add_executable(Sort main.c ${SOURCES} ${TESTS})
