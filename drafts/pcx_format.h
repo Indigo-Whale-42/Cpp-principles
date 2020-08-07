@@ -1,6 +1,3 @@
-//
-// Created by Екатерина on 07.08.2020.
-//
 
 #ifndef CPP_PRINCIPLES_PCX_FORMAT_H
 #define CPP_PRINCIPLES_PCX_FORMAT_H
@@ -34,3 +31,5 @@ typedef struct {
 } PCX;
 
 #endif //CPP_PRINCIPLES_PCX_FORMAT_H
+
+// static Byte palette[256][3];

@@ -3,7 +3,7 @@ project(PCXFormat)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCES pcx_format.c)
+set(SOURCES assembler.c)
 set(HEADERS pcx_format.h)
 #add_library(sorting ${SOURCES} ${HEADERS})
 #add_library(sorting_tests ${TESTS})
