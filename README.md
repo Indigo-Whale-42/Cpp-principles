@@ -1,2 +1,2 @@
-# Cpp-principles
-C/C++ code
+# c-algorithms
+C code
