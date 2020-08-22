@@ -3,7 +3,7 @@ project(Cpp_principles LANGUAGES C)
 
 #set(CMAKE_CXX_STANDARD 14)
 
-add_subdirectory(Sort)
+add_subdirectory(sort)
 add_subdirectory(drafts)
 
 

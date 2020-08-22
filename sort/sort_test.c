@@ -68,10 +68,10 @@ void TestAllSorts(void) {
     };
 
     Function fill_functions[] = {
-            { FillRand, "Randomly" },
-            { FillIncr, "Incrementally" },
+            { FillRand, "Random" },
+            { FillIncr, "Incremental" },
             { FillAlmostSorted, "Almost Sorted" },
-            { FillDecr, "Decrementally" }
+            { FillDecr, "Decremental" }
     };
 
     a = (int *)malloc(sizeof(int) * max);
@@ -90,7 +90,7 @@ void TestAllSorts(void) {
     printf("\n");
 
     for (j = 0; j < sizeof(sort_functions) / sizeof(sort_functions[0]); j++) {
-        printf("Sort: %14s ", sort_functions[j].name);
+        printf("sort: %14s ", sort_functions[j].name);
         for (i = 0; i < sizeof(fill_functions) / sizeof(fill_functions[0]); i++) {
             fill_functions[i].function_p(a, max);
             t = clock();
